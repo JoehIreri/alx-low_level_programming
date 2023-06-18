@@ -1,10 +1,8 @@
-#include <stdlib.h>
-#include <time.h>
 #include <stdio.h>
 /**
  * main - Entry Point
- * Description: 'get the last digit of a number'
- * Return: always 0
+ * Description: 'get alphabets'
+ * Return: always 0 (Success)
  */
 int main(void)
 {
@@ -13,7 +11,7 @@ int main(void)
 
 	for (i = 0; i < 26; i++)
 	{
-		putchar('\n');
+		putchar(alp[i]);
 	}
 	putchar('\n');
 	return (0);
