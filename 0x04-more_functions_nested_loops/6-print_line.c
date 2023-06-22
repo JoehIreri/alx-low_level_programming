@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * print_line - draws a straight line in the terminal
- * @n: number of times the character - should be printed
+ * print_line -straight -line
+ * @n: number of times
  * Return:Always 0
  */
 
@@ -10,7 +10,7 @@ void print_line(int n)
 {
 	int i;
 
-	for (i = 0; i <= n; i++)
+	for (i = 0; i < n; i++)
 		{
 		_putchar('_');
 		}
