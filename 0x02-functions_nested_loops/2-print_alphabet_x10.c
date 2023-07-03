@@ -2,18 +2,16 @@
 #include <stdio.h>
 
 /**
- * print_alphabet -x10 print all alphabet 10 times
+ * print_alphabet - Make the alphabet
  *
- * Return:always 0 (Success)
+ * Return:void
  */
-void print_alphabe_x10(void)
-{
-	int i;
-	int j;
 
-	for (j = 97; j <= 122; j++)
+void print_alphabet (void)
 {
-	putchar(j);
-	}
-	putchar('\n');
+	char ch;
+	for (ch = 'a'; ch <= 'z'; ch++)
+		int _putchar(int c);
+	_putchar(ch);
+	_putchar('\n');
 }
